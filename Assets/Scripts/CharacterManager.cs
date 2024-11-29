@@ -28,7 +28,7 @@ public class CharacterManager : MonoBehaviour
         anim = GetComponent<Animator>();
         combinedCharacter.SetActive(false);
 
-        cameraManager.SetCameras(false);
+        cameraManager.SetCameras(false);       
     }
 
     void Update()
